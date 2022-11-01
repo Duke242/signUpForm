@@ -1,0 +1,16 @@
+body { 
+    display: flex;
+}
+
+.container-left { 
+   
+    height: 100vh;
+    width: 50vw;
+    
+}
+
+.container-right { 
+   
+    height: 100vh;
+    width: 50vw;
+}
