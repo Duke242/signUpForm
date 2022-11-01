@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
 </head>
 <body>
-
     <div class="container-left">
-        <img src="./greenLeafImage" alt="Green Leaf Image" width="950" height="1000">
-
-
+        <h1 id="title">
+            <img src="odin-lined.png"/><span>Odin</span>
+        </h1>
     </div>
-
     <div class="container-right">
-
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
-            Sign up <i>now</i> to get started. 
-        </p> 
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>Sign up <i>now</i> to get started.</p> 
         <p>You <i>know</i> you want to.</p>
+        <form>
+          <fieldset id="name">
+              <legend>Name</legend>
+            <label>
+                First
+                <input name="first_name" placeholder="Jane"/>
+            </label>
+            <label>
+                Last
+                <input name="last_name" placeholder="O'Thejungle"/>
+            </label>
+        </fieldset>
+        <button type="submit">Create Account</button>
+
+        </form>
 
 
     </div>    
