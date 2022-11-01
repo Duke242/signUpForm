@@ -1,0 +1,23 @@
+{
+  "name": "sign-up-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duke242/signUpForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duke242/signUpForm/issues"
+  },
+  "homepage": "https://github.com/Duke242/signUpForm#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
