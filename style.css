@@ -47,7 +47,30 @@ input {
   max-width: 8rem;
 }
 
-#name {
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset, fieldset section {
   display: flex;
   justify-content: space-between;
+}
+
+.errorable {
+  flex-direction: column;
+}
+
+label:has(input:invalid) {
+  color: darkred;
+}
+
+input:invalid {
+  background-color: pink;
+  border-color: red;
+}
+
+
+.errorable p {
+  display: none;
 }
