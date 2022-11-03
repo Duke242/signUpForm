@@ -11,17 +11,17 @@
   <div class="container-left">
     <h1 id="title">
       <img src="odin-lined.png"/>
-      <span>Odin</span>
+      <span>ODIN</span>
     </h1>
   </div>
   <div class="container-right">
     <p class="first-paragraph">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
     <p class="second-paragraph">Sign up <i>now</i> to get started.</p> 
     <p class="third-paragraph">You <i>know</i> you want to.</p>
-    <form>
+    <form class="form__wrapper" id="main-form">
+      <h1 class="fieldset-header">Let's do this!</h1>
       <fieldset>
         <!-- <legend>Name</legend> -->
-        <h1 class="fieldset-header" style="text-transform: none;">Let's do this!</h1>
         <label>
           <span>First Name</span>
           <input name="first_name" placeholder="Jane"/>
@@ -67,9 +67,9 @@
         </section>
         <p>¡Password must match confirmation!</p>
       </fieldset>
-      <button type="submit">Create Account</button>
-      <p class="paragraph-under-button">Already have an account? Log in</p>
     </form>
+    <button form="main-form" type="submit">Create Account</button>
+    <p>Already have an account? <a style="color: #596d48; font-weight: bold;">Log in</a></p>
   </div>    
 </body>
 </html>
